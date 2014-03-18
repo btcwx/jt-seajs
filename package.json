@@ -1,0 +1,17 @@
+{
+  "name": "jt-seajs",
+  "version": "0.0.1",
+  "description": "seajs wrapper for jt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "through2": "~0.4.1"
+  },
+  "keywords": [
+    "jt-seajs"
+  ],
+  "author": "wyicwx@gmail.com",
+  "license": "MIT"
+}
