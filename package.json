@@ -12,6 +12,19 @@
   "keywords": [
     "jt-seajs"
   ],
-  "author": "wyicwx@gmail.com",
+  "config": {
+    "blanket": {
+      "pattern": "jt-seajs/lib"
+    }
+  },
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyicwx/jt-seajs.git"
+  },
   "license": "MIT"
 }
