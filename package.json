@@ -1,6 +1,6 @@
 {
   "name": "jt-seajs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "seajs wrapper for jt",
   "main": "index.js",
   "scripts": {
