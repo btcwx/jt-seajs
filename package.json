@@ -4,7 +4,7 @@
   "description": "seajs wrapper for jt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make"
   },
   "dependencies": {
     "through2": "~0.4.1"
