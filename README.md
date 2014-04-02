@@ -1,5 +1,6 @@
 seajs wrapper for jt-cli 
 ====
+![travis](https://api.travis-ci.org/wyicwx/jt-seajs.png)
 jt的seajs处理器。
 
 #####示例
