@@ -18,6 +18,28 @@ var fileSystem = {
 				type: 'function'
 			}
 		}
+	],
+	'depend': [
+		{
+			processor: 'jt-seajs',
+			file: 'function.js',
+			'jt-seajs': {
+				name: 'fn',
+				type: 'function',
+				depend: ['a', 'b', 'c']
+			}
+		}
+	],
+	'dependStr': [
+		{
+			processor: 'jt-seajs',
+			file: 'function.js',
+			'jt-seajs': {
+				name: 'fn',
+				type: 'function',
+				depend: 'a,b,c'
+			}
+		}
 	]
 };
 
