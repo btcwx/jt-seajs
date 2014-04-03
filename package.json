@@ -16,7 +16,7 @@
     "mocha": "*",
     "blanket": "*",
     "rewire": "*",
-    "jt-cli"
+    "jt-cli": "*"
   },
   "config": {
     "blanket": {
