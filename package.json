@@ -12,6 +12,12 @@
   "keywords": [
     "jt-seajs"
   ],
+  "devDependencies": {
+    "mocha": "*",
+    "blanket": "*",
+    "rewire": "*",
+    "jt-cli"
+  },
   "config": {
     "blanket": {
       "pattern": "jt-seajs/lib"
