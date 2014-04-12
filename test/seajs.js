@@ -20,7 +20,7 @@ describe('seajs', function() {
 	it('type = function', function(done) {
 		jt.fs.readComboFile(['function'], function(data) {
 			var str = data.toString();
-			var result = 'define("fn",function(require, export, module) {\n'
+			var result = 'define("fn",function(require, exports, module) {\n'
 						+'//coding\n'
 						+'});\n';
 			if(str == result) {
@@ -34,7 +34,7 @@ describe('seajs', function() {
 	it('depend 依赖 数组', function(done) {
 		jt.fs.readComboFile(['depend'], function(data) {
 			var str = data.toString();
-			var result = 'define("fn",["a","b","c"],function(require, export, module) {\n'
+			var result = 'define("fn",["a","b","c"],function(require, exports, module) {\n'
 						+'//coding\n'
 						+'});\n';
 			if(str == result) {
@@ -48,7 +48,7 @@ describe('seajs', function() {
 	it('depend 依赖 字符串', function(done) {
 		jt.fs.readComboFile(['dependStr'], function(data) {
 			var str = data.toString();
-			var result = 'define("fn",["a","b","c"],function(require, export, module) {\n'
+			var result = 'define("fn",["a","b","c"],function(require, exports, module) {\n'
 						+'//coding\n'
 						+'});\n';
 			if(str == result) {
